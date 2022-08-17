@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Sorting - JQuery UI</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+      
+      <style type="text/css">
+         #sortable-10, #sortable-11 { list-style-type: none; 
+            margin: 0; padding: 0; width: 80%; }
+         #sortable-10 li, #sortable-11 li { margin:10px; 
+            padding:20px;
+            font-size: 17px; height: 16px; }
+         .default {
+            background: #cedc98;
+            border: 1px solid #DDDDDD;
+            color: #333333;
+         }
+         
+      </style>
+      
+      <script type="text/javascript">
+          $(document).ready(function () {
+			  $("#sortable-10").sortable();
+		  });
+      </script>
+   </head>
+   
+   <body>
+      <div class = "wrap">
+         <div class = "wrap1"> 
+            <h3>Sort The Name :- <h2>"ADITYARAJ"</h2></h3>
+            <ul id = "sortable-10">
+               <li class = "default">A</li>
+               <li class = "default">I</li>
+               <li class = "default">T</li>
+               <li class = "default">D</li>
+               <li class = "default">Y</li>
+               <li class = "default">R</li>
+               <li class = "default">A</li>
+               <li class = "default">A</li>
+               <li class = "default">J</li>
+            </ul>
+         </div>
+      </div>
+      <hr />
+      <span id = result></span>
+   </body>
+</html>

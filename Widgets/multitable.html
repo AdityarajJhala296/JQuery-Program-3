@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+	  
+      <title>Multi Table</title>
+      
+	  <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet" type="text/css"/>
+      <script src = "https://code.jquery.com/jquery-1.10.2.js" type="text/javascript"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js" type="text/javascript"></script>
+		
+      <script type="text/javascript">
+          $(document).ready(function () {
+              $("#main").tabs();
+
+          });
+      </script>
+		
+      <style type="text/css">
+         #main{
+            font-size: 14px;
+        }
+         #main div,#main p{
+            background:#000000;
+        }
+         .ui-widget-header {
+            background:#ffff2a;
+            border: 5px solid #01ff09;
+            color: #ff87d3;
+            font-weight: bold;
+         }
+         #t1,#t2,#t3{
+            background-color: black;
+            color: red;
+         }
+      </style>
+   </head>
+	
+   <body>
+      <div id="main">
+         <ul>
+            <li><a href="#t1">My Tab 1</a></li>
+            <li><a href="#t2">My Tab 2</a></li>
+            <li><a href="#t3">My Tab 3</a></li>
+         </ul>
+         <div id="t1">
+            <p>
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptates nobis quos enim aperiam ad illum quidem magnam nam voluptatem sed, inventore ex a non voluptatibus tenetur, fuga provident corporis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus facere deleniti corporis accusantium commodi! Odit dolorum temporibus repudiandae quo ad accusantium dolorem, aut tempora natus reiciendis! Officia corporis soluta placeat!corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates doloremque tempore et itaque aut quaerat, consectetur aspernatur asperiores molestias incidunt repellat quas ea nam voluptatibus ducimus error alias sunt.
+            </p>
+         </div>
+         <div id="t2">
+            <p>
+                adipisicing elit. Vitae voluptates doloremque tempore et itaque aut quaerat, consectetur aspernatur asperiores molestias incidunt repellat quas ea nam voluptatibus ducimus error alias sunt.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, veritatis! Cupiditate error quia excepturi voluptates maxime laboriosam corporis dolor, enim, quidem reiciendis quas reprehenderit debitis ullam mollitia saepe cum aliquam. 
+            </p>   
+         </div>
+         <div id="t3">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, veritatis! Cupiditate dolor sit amet consectetur adipisicing elit. Necessitatibus facere deleniti corporis accusantium commodi! Odit dolorum temporibus repudiandae quo ad accusantium dolorem, aut tempora natus reiciendis! Officia corporis soluta placeat!corporis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates doloremque tempore et itaque aut quaerat, consectetur aspernatur asperiores molestias incidunt repellat quas ea nam voluptatibus ducimus error alias sunt. 
+            </p>
+         </div>
+      </div><hr/>
+   </body>
+</html>
